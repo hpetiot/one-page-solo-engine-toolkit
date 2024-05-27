@@ -1,0 +1,34 @@
+{
+  "id": "one-page-solo-engine-toolkit",
+  "title": "OnePageSoloEngine_toolkit",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "A set of rolltables and macro for the one page solo engine : https://inflatablestudios.itch.io/one-page-solo-engine",
+  "packs": [
+    {
+      "name": "opserolltables",
+      "label": "rolltables",
+      "path": "packs/opserolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "opsemacros",
+      "label": "macros",
+      "path": "packs/opsemacros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
